@@ -1,0 +1,32 @@
+.myLink,.myLinkActive{
+    width: 100%;
+    background-color: #fff;
+    margin-top: 3px;
+    color: #353535;
+    font-weight: 500;
+    cursor: pointer;
+}
+.myLinkActive{
+    background-color: #5B6CA7 !important;
+    color: #fff !important;
+}
+.tbody{
+    background-color: transparent !important;
+    
+}
+.tbody > tr{
+    vertical-align: middle;
+    text-align: center;
+}
+.thead{
+    background-color: #01063D !important;
+    text-align: center;
+    white-space: nowrap;
+}
+.thead > tr{
+    background-color: green !important;
+    color:red;
+}
+.tname{
+    color :red;
+}

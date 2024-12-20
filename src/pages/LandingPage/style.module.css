@@ -1,0 +1,86 @@
+.topbanner{
+    position:relative;
+    height: fit-content;
+    width: 100% !important;
+    overflow-x: hidden;
+    z-index: 2;
+}
+.top{
+    background: linear-gradient(180deg, #120E52 0%, rgba(217, 217, 217, 0.00) 333%);
+    box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.15);
+    /* height: 100px; */
+}
+.topimg{
+    z-index: -1;
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.banner{
+    background: linear-gradient(90deg, #0F0B59 -20.98%, rgba(29, 24, 86, 0.35) 139.41%);
+    height: 400px;
+    width: 100% !important;
+    z-index: 2;
+}
+@media screen and (max-width:640px) {
+    .banner{
+        height: 230px;
+    }
+    .bannerTitle{
+        font-size: 16px !important;
+    }
+    .bannerText{
+        font-size: 10px !important;
+        color:#fff;
+    }
+}
+.bannerTitle{
+    color: #FFF;
+    font-family: Helvetica;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.bannerText{
+    font-size: 14px;
+    color:#fff;
+}
+.howLine{
+    width: 100%;
+    height: 140px;
+    position:relative;
+    padding: 3px;
+    overflow: hidden !important;
+}
+.howBox{
+    position: absolute;
+    top:50%;
+    left:50%;
+    height: 100%;
+    aspect-ratio: 1/1;
+    border: 10px solid #fff !important;
+    overflow: hidden !important;
+    border-radius: 70%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.line{
+    width: 100% !important;
+    height: 1px;
+    background-color: #828282;
+    /* border: 0.5px solid #828282;  */
+    /* background: #E2E4EC; */
+}
+.howTitle{
+    font-size: 32px !important;
+    font-weight: 700 !important;
+}
+.whyGrad{
+    width: 100%;
+    background: linear-gradient(87deg, rgba(1, 6, 61, 0.91) 7.51%, #5B6CA7 108.81%);
+}
+.tweetText{
+    font-size: 9px !important;
+}

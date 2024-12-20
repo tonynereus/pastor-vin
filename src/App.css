@@ -1,0 +1,107 @@
+#root {
+  width: 100% !important;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden !important;
+}
+.projectFont{
+  font-family: "Bona Nova", serif !important;
+}
+body{
+  margin: 0;
+  padding: 0;
+  width: 100svw !important;
+  overflow-x: hidden ;
+}
+*{
+  transition: 0.25s all !important;
+  box-sizing: border-box !important;
+}
+@media (max-width: 768px) { /* Bootstrap's 'md' breakpoint */
+  .reverse-columns {
+    flex-direction: column-reverse !important;
+  }
+}
+
+.text-secondary{
+  color:#5B6CA7 !important;
+}
+
+.text-project{
+  color:antiquewhite !important;
+}
+.app-bg{
+  background: #fff !important;
+}
+.bg-secondary{
+  background-color:#5B6CA7 !important;
+}
+.bg-project-deep *{
+  color: #fff;
+}
+.bg-project-deep{
+  background: #01063D !important;
+}
+a{
+  text-decoration: none !important;
+}
+.noinput:focus{
+  outline: none !important;
+}
+.noinput{
+  background-color: transparent;
+  border: none;
+}
+.table{
+  background-color: none !important;
+}
+.mycenter{
+  justify-content: center !important;
+  align-items: center !important;
+}
+.lazy-load-image-background {
+  width: 100% !important;
+  height: 100% !important;
+}
+.mute-me{
+  color:#ccc !important;
+}
+.ant-select-dropdown {
+  z-index: 5700 !important;
+}
+.shopCat{
+  position: relative;
+}
+.cartCnt{
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  width: 16px;
+  aspect-ratio: 1/1;
+  background-color: #01063D;
+  border-radius:70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 8px;
+}
+@media screen and (min-width:660px) {
+  .bigmar{
+    margin-right: 20px;
+  } 
+}
+.nobreak{
+  white-space: nowrap;
+}
+
+.mobile-menu {
+  position: absolute;
+  top: 60px;
+  right: 10px;
+  width: 200px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}

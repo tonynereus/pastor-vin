@@ -1,0 +1,22 @@
+.mylink{
+    color: #050505;
+    /* font-family: Inter; */
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+    margin-right: 10px !important;
+    padding: 5px 10px !important;
+    border-radius: 20px;
+    border:1px solid #050505;
+}
+.mylink2{
+   
+}
+.mylink:hover{
+    color:#839FFF;
+}
+.mylink2:hover{
+    color:#5B6CA7;
+}

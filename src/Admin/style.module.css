@@ -1,0 +1,39 @@
+.main{
+    width: 100%;
+    height: 100svh;
+    overflow: hidden;
+}
+.leftSide,.leftSideHide{
+    width: 18rem;
+    background-color: #CFCFCF;
+    border-right: 1px solid  #828282;
+}
+.rightSide{
+    width: calc(100% - 18rem);
+    background-color:#E0E0E0;
+}
+@media screen and (max-width:600px){
+    .rightSide{
+        width: 100%;
+    }
+    .leftSide,.leftSideHide{
+        position: fixed;
+        top:0;
+        z-index: 1030;
+        height: 100svh;
+
+    }
+    .leftSideHide{
+        left:-100%;
+    }
+}
+.rightSide .top{
+    background-color: #CFCFCF;
+}
+.top{
+    height: 70px;
+    border-bottom: 1px solid  #828282;
+}
+.body{
+    height: calc(100% - 100px);
+}
