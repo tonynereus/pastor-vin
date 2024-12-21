@@ -36,7 +36,7 @@ const Header = () => {
                         </div>
                         <div >
                             <Link to="/reflections">
-                                <Mylinks active={pathname == "/reflections"}>Reflections</Mylinks>
+                                <Mylinks active={pathname == "/reflections"}>Articles</Mylinks>
                             </Link>
                         </div>
                         <div>
@@ -64,7 +64,7 @@ const Header = () => {
                             </div>
                             <div className="mb-2">
                                 <Link to="/reflections" onClick={toggleMobileMenu}>
-                                    <Mylinks active={pathname === "/reflections"}>Reflections</Mylinks>
+                                    <Mylinks active={pathname === "/reflections"}>Articles</Mylinks>
                                 </Link>
                             </div>
                             <div className="mb-2">

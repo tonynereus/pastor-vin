@@ -33,8 +33,8 @@ export default () => {
                     </>
                 }
                 <div className="w-100 row m-0 justify-content-center mb-3">
-                    <div className="col-md-10 col-11 row">
-                        <div className="col-md-9 m-0" style={{ backgroundColor: "#F4F4F4" }}>
+                    <div className="col-md-10 col-12 row">
+                        <div className="col-md-9 m-0 mb-3" style={{ backgroundColor: "#F4F4F4" }}>
                             {
                                 article && <>
                                     <img src={article.image} className="w-100" />
@@ -57,7 +57,7 @@ export default () => {
                                 articles.map((x, ind) =>
                                     <>
                                         {
-                                            x.id != id ? <div onClick={()=>{viewArticle(x.id)}} className="w-100 p-2 mb-2" key={ind}>
+                                            x.id != id ? <div onClick={()=>{viewArticle(x.id)}} className="w-100 p-0 mb-2" key={ind}>
                                                 <img src={x.image} className="w-100" />
                                                 <div className="bg-success mt-2 px-2 text-white" style={{ width: "fit-content" }}>{x.date}</div>
                                                 <div>

@@ -122,10 +122,16 @@ export default () => {
                         f) Never stay alone with opposite sex (Rom 13:14). <br />
                         g) Seek spiritual help and guidance from a Christian counsellor. <br />
                     </p>
-                    <p className="mb-3">
-                        disciplescharismaticmissioninternational@gmail.com <br />
-                        08067099150
-                    </p>
+                    <div className="mb-3 w-100 ">
+                        <p className="text-wrap overflow-hidden" style={{wordBreak:"break-word",wordWrap:"break-word"}}>
+                            disciplescharismaticmissioninternational@gmail.com
+
+                        </p>
+                        <p>
+                            08067099150
+                        </p>
+                    </div>
+
 
 
 
