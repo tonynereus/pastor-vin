@@ -28,7 +28,7 @@ export default () => {
                                     “… David in spirit call him Lord, saying, The LORD said to my Lord, sit thou on my right hand, till I make thy enemies thy footstool” (Matt 22:43-44)  David In The Spirit </b>
                                 David was a king of Israel and was also a prophet. The Spirit of the Lord God was upon him and he heard His word several times. He was one of the few prophets that saw Jesus Christ in the spirit realm during their lifetime............
                                 <Link to={"/article/2"}>
-                                <span>Read more</span>
+                                    <span>Read more</span>
                                 </Link>
                             </p>
                         </div>
@@ -41,8 +41,8 @@ export default () => {
                                     Akeredolu
                                 </h2>
                                 <Link to={"/about"}>
-                                    <p className="text-underline  text-white" style={{textDecoration:"underline"}}>
-                                            My message to you
+                                    <p className="text-underline  text-white" style={{ textDecoration: "underline" }}>
+                                        My message to you
                                     </p>
                                 </Link>
                             </div>
@@ -55,8 +55,8 @@ export default () => {
             </div>
             {/* video preview */}
             <div className="w-100 row m-0 justify-content-center ">
-                <div className="col-md-10 col-12 row">
-                    <div className="col-md-6 mb-3 p-0">
+                <div className="col-md-10 col-12 row gap-2">
+                    <div className="col-md-5 mb-3 p-0">
                         <div>
                             <iframe className="w-100" height="315"
                                 src="https://www.youtube.com/embed/I3a-UOO0j1M"
@@ -64,7 +64,12 @@ export default () => {
                             </iframe>
                         </div>
                     </div>
-                    <div className="col-md-6  p-0">
+                    <div className="col-md-6  px-1">
+                        <div className="text">
+                            <h5>
+                                Recent Articles
+                            </h5>
+                        </div>
                         {
                             articles.map((x, ind) => {
                                 return (
@@ -74,7 +79,7 @@ export default () => {
                                                 <div className="col-md-5 p-0  text-white mb-1">
                                                     <img src={x.image} className="w-100 h-100" />
                                                 </div>
-                                                <div className="col-md-7 p-0 py-2">
+                                                <div className="col-md-7 py-2" style={{paddingLeft:"10px"}}>
                                                     <strong>{x.title}</strong>
                                                     <p>{x.lesson}</p>
                                                 </div>
@@ -92,9 +97,9 @@ export default () => {
             <div className="w-100 mt-5 row m-0 justify-content-center">
                 <div className="col-md-10 col-12 p-0">
                     <div className="px-1">
-                        <h2>
+                        <h1 className="projectFont">
                             Articles
-                        </h2>
+                        </h1>
                     </div>
                     <div className="row m-0 w-100 align-items-stretch">
                         {

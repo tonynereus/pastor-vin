@@ -6,6 +6,7 @@ import articles, { getArticleById } from "../../components/articles";
 import Article2 from "./Article2";
 import Article3 from "./Article3";
 import Footer from "../LandingPage/components/footer";
+import Article4 from "./Article4";
 
 export default () => {
     const { id } = useParams();
@@ -50,9 +51,12 @@ export default () => {
                             {
                                 id == 3 && <Article3 />
                             }
+                            {
+                                id == 4 && <Article4 />
+                            }
                         </div>
                         <div className="col-md-3 m-0 p-1">
-                            {/* <h3>More Articles</h3> */}
+                            <h3>More Articles</h3>
                             {
                                 articles.map((x, ind) =>
                                     <>

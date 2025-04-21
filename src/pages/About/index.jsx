@@ -1,3 +1,4 @@
+import { FacebookFilled, XOutlined } from "@ant-design/icons";
 import pastorVinImage from "../../assets/pastor.png";
 import articles from "../../components/articles";
 import Header from "../LandingPage/components/header";
@@ -30,6 +31,21 @@ export default () => {
                         </h3>
 
                     </div>
+                </div>
+            </div>
+            <div className="w-100 mb-5 row m-0 justify-content-center">
+                <div className="col-md-10 col-11 row p-2">
+                   <div className="px-2">
+                    <h3>Connect With Me</h3>
+                    <div className="d-flex gap-3 text-dark">
+                        <a href="https://www.facebook.com/akeredolu.vincent" target="_blank">
+                            <FacebookFilled />
+                        </a>
+                        <a href="https://x.com/Akeredoluvin?t=ctsZhrnPbKo8NoeVzXRBbg&s=09" target="_blank">
+                           <XOutlined />
+                        </a>
+                    </div>
+                   </div>
                 </div>
             </div>
         </div>

@@ -1,8 +1,16 @@
 import articleImg1 from "../assets/article1.png";
 import articleImg2 from "../assets/article2.png";
 import articleImg3 from "../assets/article3.png";
+import articleImg4 from "../assets/article4.jpg";
 
 const articles = [
+    {
+        id: 4,
+        image: articleImg4,
+        title: "SIMON THE CROSS-BEARER", // AND WHY AFRICANS SHOULD EMBRACE JESUS CHRIST
+        lesson: '“And as they led Him (Jesus Christ) away, they laid hold upon one Simon, a Cyrenian, coming out of the country, and on him they laid the cross, that he might bear it after Jesus” (cf. Luke 23:26)',
+        date: "21 April 2025"
+    },
     {
         id: 1,
         image: articleImg1,
@@ -20,7 +28,7 @@ const articles = [
     {
         id: 3,
         image: articleImg3,
-        title: "Christian youths and dating",
+        title: "Christian youths and dating (Jer 35 : 1-10) (Boyfriend and girlfriend affairs)",
         lesson: 'Love your self',
         date: "13 Nov 2024"
     },

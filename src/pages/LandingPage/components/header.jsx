@@ -14,7 +14,7 @@ const Header = () => {
     };
 
     return (
-        <div className="mb-4">
+        <div className="mb-4 top-nav">
             <ScrollToTop />
             <div className="d-flex justify-content-between align-items-center py-2 px-2" style={{ overflowY: "visible" }}>
                 <div className="col-4 px-1">
